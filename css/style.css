@@ -1,0 +1,48 @@
+/* ============================
+     Navbar STARTS
+     =============================
+      */
+
+.nav-link a{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #00413d !important;
+}
+.nav-link:hover{
+    color: #e5745d;
+}
+
+.navbar {
+  background: aqua;
+  padding: 20px 0px;
+}
+.navbar_button a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #e5745d;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  position: relative;
+}
+
+.navbar_button a::after {
+  top: 3px;
+  left: 3px;
+  position: absolute;
+  width: 160px;
+  height: 51px;
+  content: "";
+  border: 2px solid white;
+}
+
+.navbar-nav{
+    column-gap: 20px;
+}
+
+/* ============================
+     Navbar Ends
+     =============================
+      */

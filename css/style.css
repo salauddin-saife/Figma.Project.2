@@ -56,6 +56,24 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner_overlay{
+    height: 850px;
+    width: 50%;
+    background-image: url(./image/banner_overlay.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    right: -1500px;
+    position: absolute;
+    transition: 1.1s;
+}
+.banner:hover .banner_overlay{
+    right: 0px;
 }
 .banner h1 span {
   display: block;
@@ -104,6 +122,8 @@
   content: "";
   border: 2px solid white;
 }
+
+
 /* ============================
  2nd part Ends
  =============================

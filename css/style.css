@@ -84,7 +84,7 @@
 }
 
 .banner_bg {
-  background-image: url(./image/Banner.png);
+  background-image:url();
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@
   width: 100%;
   scale: 0.9;
   left: -50px;
-  top: 0px;
+  top: 40px;
 }
 .banner h1 span {
   display: block;

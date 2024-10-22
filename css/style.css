@@ -84,7 +84,7 @@
 }
 
 .banner_bg {
-  background-image:url(./image/Banner.png);
+  background-image:url();
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

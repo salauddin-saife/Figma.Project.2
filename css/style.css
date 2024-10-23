@@ -84,7 +84,7 @@
 }
 
 .banner_bg {
-  background-image:url(./image/banner_design.png);
+  background-image: url(./image/banner_design.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,5 +145,38 @@
 
 /* ============================
  2nd part Ends
+ =============================
+ */
+
+/* ============================
+ 3rd part starts
+ =============================
+ */
+
+.common_text_part {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.common_text_part h4 {
+  color: #e5745d;
+  font-family: "Vollkorn", serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 200px;    
+}
+
+.common_text_part h2 {
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  font-weight: 400;
+  width: 517px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* ============================
+ 3rd part Ends
  =============================
  */

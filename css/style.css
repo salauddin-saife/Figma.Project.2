@@ -295,9 +295,10 @@
   font-family: "Vollkorn", serif;
   font-size: 50px;
   font-weight: 400;
-  width: 517px;
+  width: 570px;
   text-align: left;
   padding-top: 30px;
+  line-height: 56px;
 }
 .about_text_part p {
   font-family: "Jost", sans-serif;
@@ -331,5 +332,53 @@
 }
 /* ============================
  4th part ends
+ =============================
+ */
+
+/* ============================
+ 5th part starts
+ =============================
+ */
+.fifth_part_card {
+  width: 300px !important;
+  height: 300px;
+  position: relative;
+  -webkit-box-shadow: 10px 10px 33px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 33px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 33px -21px rgba(0, 0, 0, 0.75);
+}
+.fifth_part_card img {
+  width: 167px;
+  height: 167px;
+  margin-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fifth_part_card .fifth_part_card_body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.fifth_part_card .fifth_part_card_body h5 {
+  font-size: 22px;
+  font-family: "Vollkorn", serif;
+  color: #00413d;
+  width: 185px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.fifth_part_card h2{
+    font-size: 30px;
+    font-family: "Vollkorn", serif;
+    color: #00413d;
+    width: 66px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 110px;
+    position: absolute;
+}
+/* ============================
+ 5th part ends
  =============================
  */

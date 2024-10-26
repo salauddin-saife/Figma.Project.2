@@ -356,10 +356,10 @@
   margin-right: auto;
 }
 .fifth_part_card .fifth_part_card_body {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 .fifth_part_card .fifth_part_card_body h5 {
   font-size: 22px;
@@ -369,128 +369,197 @@
   font-weight: 600;
   margin: 0 auto;
 }
-.fifth_part_card h2{
-    font-size: 30px;
-    font-family: "Vollkorn", serif;
-    color: #00413d;
-    width: 66px;
-    font-weight: 600;
-    margin-left: 120px;
-    margin-top: 110px;
-    position: absolute;
+.fifth_part_card h2 {
+  font-size: 30px;
+  font-family: "Vollkorn", serif;
+  color: #00413d;
+  width: 66px;
+  font-weight: 600;
+  margin-left: 120px;
+  margin-top: 110px;
+  position: absolute;
 }
 /* ============================
  5th part ends
  =============================
  */
 
-
- /* ============================
+/* ============================
  6th part starts
  =============================
  */
 
- .sixth_part_header{
-    justify-content: left;
-    display: flex;
-    flex-direction: column;
-    position: relative;
- }
+.sixth_part_header {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
- .sixth_part_header h4 {
-    color: #e5745d;
-    font-family: "Vollkorn", serif;
-    font-size: 18px;
-    font-weight: 400;
-    padding-top: 150px;
-    padding-left: 93px;
+.sixth_part_header h4 {
+  color: #e5745d;
+  font-family: "Vollkorn", serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 150px;
+  padding-left: 93px;
+}
 
-  }
+.sixth_part_header h2 {
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  font-weight: 400;
+  width: 517px;
+  text-align: left;
+  padding-top: 10px;
+  color: #00413d;
+}
 
-  .sixth_part_header h2{
-    font-family: "Vollkorn", serif;
-    font-size: 50px;
-    font-weight: 400;
-    width: 517px;
-    text-align: left;
-    padding-top: 10px;
-    color: #00413d;
-  }
+.sixth_part_header h4::after {
+  position: absolute;
+  top: 158px;
+  height: 1px;
+  width: 70px;
+  background-color: #e5745d;
+  content: "";
+  left: 0px;
+}
+.sixth_part_header h4::before {
+  position: absolute;
+  top: 153px;
+  height: 10px;
+  width: 10px;
+  background-color: #e5745d;
+  border-radius: 50%;
+  content: "";
+  left: 70px;
+}
 
-  .sixth_part_header h4::after {
-    position: absolute;
-    top: 158px;
-    height: 1px;
-    width: 70px;
-    background-color: #e5745d;
-    content: "";
-    left: 0px;
-  }
-  .sixth_part_header h4::before {
-    position: absolute;
-    top: 153px;
-    height: 10px;
-    width: 10px;
-    background-color: #e5745d;
-    border-radius: 50%;
-    content: "";
-    left: 70px;
-  }
+.sixth-card-body h4 {
+  color: #e5745d;
+  font-family: "Vollkorn", serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
 
-  .sixth-card-body h4{
-    color: #e5745d;
-    font-family: "Vollkorn", serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
-  }
+.sixth-card-body h3 {
+  font-family: "Vollkorn", serif;
+  font-size: 24px;
+  font-weight: 400;
+  width: 304px;
+  text-align: left;
+  padding-top: 5px;
+  color: #00413d;
+  line-height: 30px;
+}
 
-  .sixth-card-body h3{
-    font-family: "Vollkorn", serif;
-    font-size: 24px;
-    font-weight: 400;
-    width: 304px;
-    text-align: left;
-    padding-top: 5px;
-    color: #00413d;
-    line-height: 30px;
-  }
+.sixth_part_card {
+  width: 370px !important;
+  height: 520px;
+}
 
-  .sixth_part_card{
-    width: 370px !important;
-    height: 520px;
-  }
+.sixth-card-body p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 289px;
+  text-align: left;
+  padding-top: 5px;
+  color: #00413d;
+}
 
-  .sixth-card-body p{
-    font-family: "Jost", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    width: 289px;
-    text-align: left;
-    padding-top: 5px;
-    color: #00413d;
-  }
+.sixth-card-body a {
+  text-decoration: none;
+  color: #00413d;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 147px;
+  text-align: left;
+  padding-top: 5px;
+  color: #00413d;
+}
+.sixth-card-body i {
+  padding-left: 5px;
+}
+.sixth-card-body a:hover {
+  color: #e5745d;
+}
 
-  .sixth-card-body a{
-    text-decoration: none;
-    color: #00413d;
-    font-family: "Jost", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    width: 147px;
-    text-align: left;
-    padding-top: 5px;
-    color: #00413d;
-  }
-  .sixth-card-body i{
-    padding-left: 5px;
-  }
-  .sixth-card-body a:hover{
-    color: #e5745d;
-  }
+.explore_more_button {
+  text-align: center;
+}
+.explore_more_button .common_button a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #e5745d;
+  padding: 20px 50px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
 
- /* ============================
+.explore_more_button .common_button a::after {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  width: 191px;
+  height: 56px;
+  content: "";
+  border: 2px solid white;
+}
+.seventh_part_text {
+  position: relative;
+}
+.seventh_part_cont h4::after {
+  position: absolute;
+  top: 208px;
+  height: 1px;
+  width: 70px;
+  background-color: #e5745d;
+  content: "";
+  left: 500px;
+}
+
+.seventh_part_cont h4::before {
+  position: absolute;
+  top: 203px;
+  height: 10px;
+  width: 10px;
+  background-color: #e5745d;
+  border-radius: 50%;
+  content: "";
+  left: 570px;
+}
+
+.seventh_part_li a {
+  position: relative;
+}
+.seventh_part_li a::after {
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  top: 35px;
+  left: 0px;    
+  content: "";
+  background-color: #e5745d;
+  transition: 0.3s;
+  transform: scaleX(0);
+}
+
+.seventh_part_li a:hover::after{
+    width: 100%;
+    transform: scaleX(1);
+}
+
+.seventh_part_nav{
+    padding-top: 40px;
+}
+/* ============================
  6th part ends
  =============================
  */
- 

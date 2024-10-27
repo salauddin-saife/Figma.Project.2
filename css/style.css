@@ -544,22 +544,111 @@
   height: 3px;
   position: absolute;
   top: 35px;
-  left: 0px;    
+  left: 0px;
   content: "";
   background-color: #e5745d;
   transition: 0.3s;
   transform: scaleX(0);
 }
 
-.seventh_part_li a:hover::after{
-    width: 100%;
-    transform: scaleX(1);
+.seventh_part_li a:hover::after {
+  width: 100%;
+  transform: scaleX(1);
 }
 
-.seventh_part_nav{
-    padding-top: 40px;
+.seventh_part_nav {
+  padding-top: 40px;
 }
 /* ============================
  6th part ends
+ =============================
+ */
+
+/* ============================
+ 8th part starts
+ =============================
+ */
+.eight_part_card_body {
+  background-color: #00413d;
+  position: absolute;
+  width: 570px;
+  height: 100px;
+  bottom: 0px;
+}
+.eight_part_card_body h5 {
+  font-size: 24;
+  font-weight: 600;
+  font-family: "Vollkorn", serif;
+  text-align: left;
+  color: #ffffff;
+}
+
+.eight_part_card_body p {
+  font-size: 16;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  text-align: left;
+  color: #ffffff;
+  opacity: 50%;
+}
+
+.eight_part_card {
+  width: 570px !important;
+  height: 520px;
+  top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.eight_part_card a {
+  text-decoration: none;
+  color: #e5745d;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 1;
+}
+.eight_part_card:hover a {
+  opacity: 100%;
+  transition: 0.01s;
+}
+
+.eight_part_card .eight_part_card_img{
+  background-image: url(./image/eight_part_img1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 570px !important;
+  height: 520px;    
+}
+
+.eight_part_img_overlay{
+    width: 570px !important;
+    height: 520px;
+    position: absolute;
+    background-color: #00413d;
+    opacity: 70%;
+    top: 425px;
+    transition: 0.3s;
+    z-index: 0;
+}
+
+.eight_part_card:hover .eight_part_img_overlay{
+    top: 0px;
+}
+
+.eight_part_row2{
+    padding-top: 50px;
+}
+/* ============================
+ 8th part ends
  =============================
  */

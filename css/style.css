@@ -949,6 +949,23 @@
   height: 40px;
 }
 
+.footer_sect .footer_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.footer_sect .footer_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-top: 2px rgba(255, 255, 255, 0.3) solid;
+    margin-top: 65px;
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
 /* ============================
  Footer part Ends
  =============================

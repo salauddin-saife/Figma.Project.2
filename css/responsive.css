@@ -1,0 +1,28 @@
+@media (min-width: 320px) and (max-width: 575.99px) {
+  .navbar button span i {
+    color: #e5745d;
+  }
+  .navbar_button a {
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #e5745d;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 86px;
+    top: 5px;
+  }
+  .navbar_button a::after {
+    width: 116px;
+    height: 31px;
+  }
+  .navbar-collapse ul li a {
+    color: #00413d;
+  }
+  .navbar-nav {
+    column-gap: 20px;
+    align-items: center;
+  }
+}

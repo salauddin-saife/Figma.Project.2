@@ -25,4 +25,48 @@
     column-gap: 20px;
     align-items: center;
   }
+  .banner h1 {
+    font-size: 35px;
+    font-family: "Vollkorn", serif;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .banner p {
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    line-height: 20px;
+    padding-bottom: 50px;
+  }
+
+  .common_button a {
+    padding: 5px 18px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #e5745d;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 86px;
+    top: 5px;
+  }
+
+  
+  .common_button a::after {
+    top: 3px;
+    left: 3px;
+    position: absolute;
+    width: 116px;
+    height: 31px;
+    content: "";
+    border: 2px solid white;
+  }
+
+  
 }

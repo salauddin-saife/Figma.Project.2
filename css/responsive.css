@@ -53,11 +53,10 @@
     font-weight: 400;
     font-family: "Jost", sans-serif;
     position: relative;
-    left: 86px;
+    left: 71px;
     top: 5px;
   }
 
-  
   .common_button a::after {
     top: 3px;
     left: 3px;
@@ -68,5 +67,79 @@
     border: 2px solid white;
   }
 
-  
+  .banner_overlay {
+    height: 0px;
+    width: 0px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .common_text_part h4 {
+    font-size: 14px;
+    padding-top: 49px;
+    padding-left: 93px;
+  }
+  .third_part_text h4::before {
+    position: absolute;
+    top: 52px;
+    height: 7px;
+    width: 7px;
+    background-color: #e5745d;
+    border-radius: 50%;
+    content: "";
+    left: 147px;
+  }
+  .third_part_text h4::after {
+    position: absolute;
+    top: 54px;
+    height: 1px;
+    width: 50px;
+    background-color: #e5745d;
+    content: "";
+    left: 98px;
+  }
+  .common_text_part h2 {
+    font-size: 35px;
+    width: 300px;
+    text-align: center;
+    padding-top: 13px;
+    color: #00413d;
+  }
+  .third_part_card {
+    padding-top: 30px;
+  }
+
+  .third_part_card .card {
+    padding-left: 20px;
+    width: 260px !important;
+    height: 246px;
+    box-shadow: 10px 10px 33px -21px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+  }
+
+  .third_part_card img {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+  }
+  .third_part_card .card-body {
+    padding: 25px 0px;
+  }
+  .third_part_card .card-title {
+    font-size: 15px;
+  }
+  .third_part_card .card-body p {
+    width: 215px;
+    color: #00413d;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    line-height: 17px;
+  }
+
+  .fourth_part_sect {
+    padding: 50px 0px;
+  }
 }

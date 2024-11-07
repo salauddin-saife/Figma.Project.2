@@ -109,6 +109,7 @@
   }
   .third_part_card {
     padding-top: 30px;
+    padding-left: 20px;
   }
 
   .third_part_card .card {
@@ -142,4 +143,62 @@
   .fourth_part_sect {
     padding: 50px 0px;
   }
+  .fourth_part_sect img {
+    width: 85%;
+    margin-bottom: 40px;
+  }
+
+  .about_imgs {
+    margin-bottom: 0px;
+  }
+  .about_img_one {
+    margin-top: 20px;
+  }
+
+  .about_img_two {
+    margin-top: -10px;
+  }
+
+  .fourth_part_sect {
+    padding: 50px 0px;
+    padding-left: 0px;
+    padding-left: 25px;
+  }
+
+  .about_text_part h4 {
+    color: #e5745d;
+    font-family: "Vollkorn", serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 49px;
+    padding-left: 105px;
+  }
+
+  .fouth_part_text h4::before {
+    position: absolute;
+    top: 52px;
+    height: 7px;
+    width: 7px;
+    background-color: #e5745d;
+    border-radius: 50%;
+    content: "";
+    left: 104px;
+  }
+
+
+  .fouth_part_text h4::after {
+    position: absolute;
+    top: 54px;
+    height: 1px;
+    width: 50px;
+    background-color: #e5745d;
+    content: "";
+    left: 55px;
+  }
+
+  font-size: 35px;
+    width: 300px;
+    text-align: center;
+    padding-top: 13px;
+    color: #00413d;
 }

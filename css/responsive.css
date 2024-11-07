@@ -185,7 +185,6 @@
     left: 104px;
   }
 
-
   .fouth_part_text h4::after {
     position: absolute;
     top: 54px;
@@ -196,9 +195,117 @@
     left: 55px;
   }
 
-  font-size: 35px;
+  .about_text_part h2 {
+    font-family: "Vollkorn", serif;
+    font-size: 35px;
+    font-weight: 400;
     width: 300px;
+    padding-top: 30px;
     text-align: center;
-    padding-top: 13px;
+    margin-left: -27px;
+    line-height: 40px;
+  }
+
+  .about_text_part p {
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 246px;
+    text-align: center;
+    padding: 30px 0px;
+    line-height: 17px;
     color: #00413d;
+  }
+
+  .about_text_part .about_button a {
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #e5745d;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    left: 40px;
+    top: 0px;
+  }
+
+  .about_text_part .about_button a::after {
+    top: 3px;
+    left: 3px;
+    position: absolute;
+    width: 123px;
+    height: 31px;
+    content: "";
+    border: 2px solid white;
+  }
+  .fifth_part_card {
+    width: 250px !important;
+    height: 250px;
+    position: relative;
+    box-shadow: 10px 10px 33px -21px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .fifth_part_card h2 {
+    font-size: 20px;
+    margin-top: 83px;
+  margin-left: 110px;
+}
+
+.fifth_part_card img {
+    width: 100px;
+    height: 100px;
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fifth_part_card .fifth_part_card_body h5 {
+    font-size: 15px;
+}
+
+.sixth_part_header h4 {
+    color: #e5745d;
+    font-family: "Vollkorn", serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 49px;
+    padding-left: 115px;
+  }
+
+  .sixth_part_header h4::before {
+    position: absolute;
+    top: 52px;
+    height: 7px;
+    width: 7px;
+    background-color: #e5745d;
+    border-radius: 50%;
+    content: "";
+    left: 104px;
+  }
+  .sixth_part_header h4::after {
+    position: absolute;
+    top: 54px;
+    height: 1px;
+    width: 50px;
+    background-color: #e5745d;
+    content: "";
+    left: 55px;
+  }
+
+  .sixth_part_header h2 {
+    font-family: "Vollkorn", serif;
+    font-size: 35px;
+    font-weight: 400;
+    width: 300px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .sixth_part_card {
+    width: 280px !important;
+    height: 430px;
+  }
 }

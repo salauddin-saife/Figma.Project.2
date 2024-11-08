@@ -490,7 +490,7 @@
     text-align: center;
   }
   .nineth_part_cont .row{
-    margin-left: 15px;
+    padding-left: 15px;
   }
 
   .nineth_part_two{
@@ -601,8 +601,61 @@
   .footer_sect {
     background-color: #00413d;
     width: 100%;
-    height: 404px;
-    margin-bottom: 0px;
+    height: 245px;
   }
 
+  .footer_sect .footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 45px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .footer_sect ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    font-size: 12px;
+    padding-top: 40px;
+  }
+
+  .footer_sect li {
+    position: relative;
+    border-left: 0px;
+    padding-left: 0px;
+  }
+
+  .footer_icon img{
+    width: 121px;
+  }
+
+  .footer_menu {
+    margin-left: -30px;
+  }
+
+  .footer_sect .footer_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px rgba(255, 255, 255, 0.3) solid;
+    margin-top: 5px;
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+    font-weight: 390;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer_sect .footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }

@@ -1,3 +1,4 @@
+/* <----------extra Small--------------> */
 @media (min-width: 320px) and (max-width: 575.99px) {
   .navbar button span i {
     color: #e5745d;
@@ -658,4 +659,28 @@
     padding-top: 16px;
     padding-bottom: 16px;
   }
+}
+
+
+
+/* <---------- Small--------------> */
+@media (min-width: 576px) and (max-width: 767.99px){
+
+}
+
+
+/* <----------medium--------------> */
+@media (min-width: 768px) and (max-width: 991.99px){
+
+}
+
+
+/* <----------large--------------> */
+@media (min-width: 992px) and (max-width: 1199.99px){
+
+}
+
+/* <----------extra large--------------> */
+@media (min-width: 1200px) and (max-width: 1399.99px){
+
 }

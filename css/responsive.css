@@ -774,7 +774,7 @@
       }
       .common_text_part h2 {
         font-size: 35px;
-        width: 300px;
+        width: 100%;
         text-align: center;
         padding-top: 13px;
         color: #00413d;
@@ -1143,8 +1143,7 @@
       .nineth_part_header  h4 {
         font-size: 14px;
         padding-top: 49px;
-        padding-left: 93px;
-        margin-left: -34px;
+        padding-left: 120px;
       }
       .nineth_part_header h4::before {
         position: absolute;
@@ -1154,7 +1153,7 @@
         background-color: #e5745d;
         border-radius: 50%;
         content: "";
-        left: 120px;
+        left: 253px;
       }
     
       .nineth_part_header h4::after {
@@ -1164,7 +1163,7 @@
         width: 50px;
         background-color: #e5745d;
         content: "";
-        left: 70px;
+        left: 208px;
       }
     
       .nineth_part_col-lg-6 .nineth_part_text {
@@ -1182,7 +1181,7 @@
         text-align: center;
       }
       .nineth_part_cont .row{
-        padding-left: 15px;
+        padding-left: 142px;
       }
     
       .nineth_part_two{
@@ -1205,8 +1204,7 @@
       .tenth_part_header h4 {
         font-size: 14px;
         padding-top: 49px;
-        padding-left: 93px;
-        margin-left: 45px;
+        padding-left: 260px;
       }
       
     
@@ -1214,7 +1212,7 @@
         width: 85%;
         height: 100%;
         padding-top: 130px;
-        margin-left: 20px;
+        padding-left: 100px;
       }
     
       .tenth_part_header h4::before {
@@ -1225,7 +1223,7 @@
         background-color: #e5745d;
         border-radius: 50%;
         content: "";
-        left: 117px;
+        left: 235px;
       }
     
       .tenth_part_header h4::after {
@@ -1235,7 +1233,7 @@
         width: 50px;
         background-color: #e5745d;
         content: "";
-        left: 69px;
+        left: 190px;
       }
     
       .tenth_part_button a {
@@ -1247,7 +1245,7 @@
         font-weight: 400;
         font-family: "Jost", sans-serif;
         position: relative;
-        left: 88px;
+        left: 200px;
         top: 5px;
       }
     
@@ -1267,7 +1265,7 @@
         font-size: 14px;
         font-weight: 400;
         padding-top: 72px;
-        padding-left: 59px;
+        padding-left: 114px;
       }
     
       .ellaven_part_header h4::before {
@@ -1278,7 +1276,7 @@
         background-color: #e5745d;
         border-radius: 50%;
         content: "";
-        left: 121px;
+        left: 243px;
       }
     
       .ellaven_part_header h4::after {
@@ -1288,7 +1286,7 @@
         width: 50px;
         background-color: #e5745d;
         content: "";
-        left: 72px;
+        left: 194px;
       }
       .footer_sect {
         background-color: #00413d;
